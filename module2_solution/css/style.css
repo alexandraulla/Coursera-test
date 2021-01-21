@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+a:hover {
+  color: red;
+}
+
+body {
+  font-size: 16px;
+  font-family: Times, serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.25em;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 0%;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  padding: 3%;
+}
+
+div {
+  position: absolute;
+}
+
+p {
+  padding: 3%;
+  allign: justify;
+}
+
+section {
+  border: 1px solid black;
+}
+
+#Box1 {
+  background-color: #b3b3ff;
+  float: left;
+}
+
+#Box2 {
+  background-color: #ffff66;
+  float: right;
+}
+
+#Box3 {
+  background-color: #99ff99;
+  float: right;
+}
+
+#Tit1 {
+  background-color: #000066;
+  color: white;
+}
+
+#Tit2 {
+  background-color: #ff8000;
+  color: black;
+}
+
+#Tit3 {
+  background-color: #006600;
+  color: yellow;
+}
+
+@media (min-width: 992px) {
+  section {
+    width: 30%;
+    height: 200px;
+    margin: 5% 2% 20% 1%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Box1 {
+    width: 44%;
+    height: 200px;
+    margin: 3%;
+  }
+  #Box2 {
+    width: 44%;
+    height: 200px;
+    margin: 3%;
+  }
+  #Box3 {
+    width: 94%;
+    height: 200px;
+    margin: 0.5% 3% 10% 3%;
+  }
+}
+
+@media (max-width: 767px) {
+  #Box1 {
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+  }
+  #Box2 {
+    width: 80%;
+
+    margin: 5% 10% 5% 10%;
+  }
+  #Box3 {
+    width: 80%;
+
+    margin: 5% 10% 5% 10%;
+  }
+}
+
